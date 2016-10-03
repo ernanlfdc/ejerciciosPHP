@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<title>Registro Libros</title>
+	</head>
+	<body>
+	<form id="formulario" action="enviado.php" method="post">
+	    <fieldset>
+	        <legend>Libro</legend>
+	            <label>Titulo</label>
+	                <input id="campo1" name="titulo" type="text" />
+	            <label>Autor</label>
+	                <input id="campo2" name="autor" type="text" /><br>
+	            <label>Editorial</label>	            	
+					<select name="editoriales" form="formulario">
+					  <option value="salvat">Salvat</option>
+					  <option value="salamandra">Salamandra</option>
+					</select><br>
+				<input type="checkbox" name="envio" value="no" checked="checked"> Deseo recibirlo en casa<br>
+  				<input type="checkbox" name="terminos" value="si" > Acepto los terminos y condiciones ...<br>
+	            <input id="campo" name="enviar" type="submit" value="Enviar" />
+	    </fieldset>
+	</form>
+	</body>
+</html>

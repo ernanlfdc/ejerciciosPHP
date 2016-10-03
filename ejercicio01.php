@@ -14,11 +14,11 @@ Se muestra por pantalla con un bucle "for".</h4>
 //Muestra su contenido en un bucle "for"
 
 $array = array(
-	'Nombre' => "Ernán",
-	'Apellidos' => "LFDC",
-	'Ciclo' => "Desarrollo de Aplicaciones Web",
-	'Curso' => "Segundo",
-	'Módulo' => "Desarrollo Web en Entorno Servidor");
+	'Base' => "Rigoberto",
+	'Escolta' => "Eustaquio",
+	'Ala' => "Pancracio",
+	'Ala-Pivot' => "Romualdo",
+	'Pivot' => "Rogelio");
 //Array inicializado en la decaración
 
 foreach ($array as $position=>$element){
